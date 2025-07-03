@@ -18,7 +18,7 @@ public class LogoutController {
 
     /**
      * Executes the Logout Use Case.
-     * @param username the username of the user logging in
+     * @param username the username of the user logging in hi
      */
     public void execute(String username) {
         // TODO: run the use case interactor for the logout use case
