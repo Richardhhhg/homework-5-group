@@ -1,7 +1,7 @@
 package use_case.logout;
 
 /**
- * Output Data for the Logout Use Case. hi
+ * Output Data for the Logout Use Case
  */
 public class LogoutOutputData {
 
@@ -9,7 +9,6 @@ public class LogoutOutputData {
     private boolean useCaseFailed;
 
     public LogoutOutputData(String username, boolean useCaseFailed) {
-        // TODO: save the parameters in the instance variables.
         this.username = username;
         this.useCaseFailed = useCaseFailed;
     }
