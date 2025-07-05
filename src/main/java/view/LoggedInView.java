@@ -105,7 +105,8 @@ public class LoggedInView extends JPanel implements PropertyChangeListener {
                         final LoggedInState currentState = loggedInViewModel.getState();
                         if (logoutController != null) {
                             logoutController.execute(currentState.getUsername());
-                        } else {
+                        }
+                        else {
                             JOptionPane.showMessageDialog(
                                     null,
                                     "Logout controller is not set."
